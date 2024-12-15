@@ -1,0 +1,196 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+    position: fixed; /* Make header fixed at the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    background-color: #106861; /* Teal green background */
+    color: #fff;
+    padding: 1rem;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav .logo h1 {
+    font-size: 1.8rem;
+    color: #aeea00; /* Light green for the logo */
+}
+
+.cta-btn {
+    background-color: #aeea00; /* Light green button */
+    color: #106861; /* Teal green text */
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.cta-btn:hover {
+    background-color: #106861; /* Teal green on hover */
+    color: #aeea00; /* Light green text on hover */
+}
+
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links .cta-btn {
+    background-color: #aeea00; /* Light green button */
+    color: #106861; /* Teal green text */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links .cta-btn:hover {
+    background-color: #106861; /* Teal green on hover */
+    color: #aeea00; /* Light green text on hover */
+}
+
+/* Main Banner */
+.main-banner {
+    background: url('https://images.unsplash.com/photo-1505944357435-2c0f5ed99904?crop=entropy&fit=crop&w=1350&h=500') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 60px; /* Adjust for fixed header */
+}
+
+.banner-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #aeea00; /* Light green heading */
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #106861; /* Teal green for the paragraph */
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+    background-color: #f0f0f0;
+}
+
+.feature {
+    text-align: center;
+    padding: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    color: #106861; /* Teal green for feature heading */
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* User Options */
+.user-options {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.user-options h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #106861; /* Teal green heading */
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cta-btn {
+    background-color: #aeea00; /* Light green button */
+    color: #106861; /* Teal green text */
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #106861; /* Teal green on hover */
+    color: #aeea00; /* Light green text on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #106861; /* Teal green background */
+    color: #fff;
+    text-align: center;
+    margin-top: rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.footer-links a {
+    color: #aeea00; /* Light green for links */
+    text-decoration: none; /* Remove default underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: #aeea00; /* Color of the underline */
+}
+
+.footercopy {
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+}
